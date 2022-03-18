@@ -1,7 +1,7 @@
-output "ALB_PUBLIC" {
-  value = aws_lb.public.*.id
+output "ALB_PUBLIC_ARN" {
+  value = aws_lb.public.arn
 }
 
-output "ALB_PRIVATE" {
-  value = aws_lb.private.*.id
+output "ALB_PRIVATE_ARN" {
+  value = aws_lb.private.arn
 }
