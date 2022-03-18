@@ -5,3 +5,7 @@ output "ALB_PUBLIC_ARN" {
 output "ALB_PRIVATE_ARN" {
   value = aws_lb.private.arn
 }
+
+output "PRIVATE_ARN" {
+  value = aws_lb_listener.private.arn
+}
